@@ -1,6 +1,8 @@
+import React from 'react';
 import { Users, Award, Heart, ShieldCheck, Clock, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
 import { CONTACT_INFO } from '../constants';
+import aboutTeam from '../assets/about-team.jpg';
 
 const About = () => {
     return (
