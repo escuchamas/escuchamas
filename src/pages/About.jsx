@@ -3,6 +3,7 @@ import { Users, Award, Heart, ShieldCheck, Clock, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
 import { CONTACT_INFO } from '../constants';
 import aboutTeam from '../assets/about-team.jpg';
+import anaRetrato from '../assets/ana-retrato.png';
 import juanjoRetrato from '../assets/juanjo-retrato.png';
 
 const About = () => {
@@ -49,7 +50,7 @@ const About = () => {
                              <img src={aboutTeam} alt="Equipo Escucha+" className="w-full h-full object-cover" />
                         </div>
                         <div className="absolute -bottom-6 -right-6 bg-white p-8 rounded-2xl shadow-xl hidden md:block border-2 border-[#0093d0]">
-                            <div className="text-4xl font-bold text-[#0093d0]">15+</div>
+                            <div className="text-4xl font-bold text-[#0093d0]">20+</div>
                             <div className="text-gray-500 font-medium italic">Años de Experticia</div>
                         </div>
                     </div>
@@ -92,7 +93,8 @@ const About = () => {
                 <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
                     <TeamMember 
                         name="Ana Torregrosa" 
-                        role="Directora Técnica - Audióloga (15 años de exp.)" 
+                        role="Directora Técnica - Audióloga (20 años de exp.)" 
+                        image={anaRetrato} 
                     />
                     <TeamMember 
                         name="Juanjo Contreras" 
