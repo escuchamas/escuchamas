@@ -56,7 +56,7 @@ const Home = () => {
         <div className="bg-gray-50">
             <SEO 
                 title="Centro Auditivo Málaga | Revisión Gratis" 
-                description="Especialistas en audífonos en Málaga. Financiación 0%, prueba gratuita de 15 días y atención personalizada. ¡Recupera tu audición hoy!"
+                description="Especialistas en audífonos en Málaga con 20 años de experiencia. Financiación 0%, prueba gratuita de 15 días y atención personalizada. ¡Recupera tu audición hoy!"
             />
             <script type="application/ld+json">
                 {JSON.stringify(structuredData)}
