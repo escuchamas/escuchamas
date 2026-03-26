@@ -9,7 +9,7 @@ const About = () => {
         <div className="bg-white">
             <SEO 
                 title="Sobre Nosotros | Escucha+" 
-                description="Concebido en Málaga para la gente del barrio. Tecnología auditiva de gama alta al precio que merece, sin las comisiones de las franquicias."
+                description="Acercando calidad auditiva al barrio de Málaga. Tecnología de gama alta al precio que merece, sin las comisiones de las franquicias."
             />
             
             {/* Hero Section */}
@@ -19,9 +19,9 @@ const About = () => {
                 </div>
                 <div className="relative max-w-[1200px] mx-auto px-4 text-center text-white">
                     <span className="text-[#0093d0] font-bold tracking-widest uppercase text-sm mb-4 block">Nuestra Filosofía</span>
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Alta Tecnología con Corazón de Barrio</h1>
+                    <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight italic">Acercando calidad auditiva al barrio de <span className="text-[#0093d0]">Málaga</span></h1>
                     <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                        En Escucha+ creemos que oír bien no debería ser un lujo de unos pocos, sino un derecho de toda nuestra gente en Málaga.
+                        En Escucha+ creemos que oír bien no debería ser un lujo de unos pocos, sino un derecho de toda nuestra gente.
                     </p>
                 </div>
             </div>
@@ -30,7 +30,7 @@ const About = () => {
             <div className="container mx-auto px-4 py-24">
                 <div className="grid md:grid-cols-2 gap-16 items-center">
                     <div className="space-y-6">
-                        <h2 className="text-3xl font-bold text-gray-900">Por qué nacemos en 2025</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 italic">Por qué nacemos en 2025</h2>
                         <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                             <p>
                                 Abrimos nuestras puertas en 2025 con una misión rebelde: democratizar la salud auditiva. Hartos de ver cómo las grandes franquicias inflan los precios con comisiones innecesarias, decidimos crear un espacio diferente.
@@ -39,7 +39,7 @@ const About = () => {
                                 Ofrecemos la **misma tecnología de punta** que las multinacionales, pero con el trato, la cercanía y los precios honestos de un gabinete independiente de Málaga. Porque para nosotros, no eres un número en una hoja de beneficios, eres nuestro vecino.
                             </p>
                             <p className="font-medium text-[#0093d0]">
-                                "Calidad de gama alta, trato de barrio y precios reales. Sin trucos, solo salud."
+                                "Calidad de gama alta, trato de barrio y precios reales. Sin comisiones, solo salud."
                             </p>
                         </div>
                     </div>
@@ -48,8 +48,8 @@ const About = () => {
                              <img src={aboutTeam} alt="Equipo Escucha+" className="w-full h-full object-cover" />
                         </div>
                         <div className="absolute -bottom-6 -right-6 bg-white p-8 rounded-2xl shadow-xl hidden md:block border-2 border-[#0093d0]">
-                            <div className="text-4xl font-bold text-[#0093d0]">2025</div>
-                            <div className="text-gray-500 font-medium italic">Orgullosamente Independientes</div>
+                            <div className="text-4xl font-bold text-[#0093d0]">15+</div>
+                            <div className="text-gray-500 font-medium italic">Años de Experticia</div>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ const About = () => {
                     <p className="text-gray-500">Profesionales certificados dedicados a tu bienestar.</p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-12">
-                    <TeamMember name="Ana Torregrosa" role="Directora Técnica - Audióloga" />
+                    <TeamMember name="Ana Torregrosa" role="Directora Técnica - Audióloga (15 años de exp.)" />
                     <TeamMember name="Carlos Ruiz" role="Especialista en Audífonos" />
                     <TeamMember name="María López" role="Atención al Paciente" />
                 </div>
