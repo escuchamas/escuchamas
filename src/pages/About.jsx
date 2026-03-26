@@ -7,7 +7,7 @@ const About = () => {
         <div className="bg-white">
             <SEO 
                 title="Sobre Nosotros | Escucha+" 
-                description="Conoce al equipo de Escucha+, especialistas audiólogos en Málaga dedicados a mejorar tu salud auditiva desde 2010. Tu bienestar es nuestra prioridad."
+                description="Concebido en Málaga para la gente del barrio. Tecnología auditiva de gama alta al precio que merece, sin las comisiones de las franquicias."
             />
             
             {/* Hero Section */}
@@ -16,10 +16,10 @@ const About = () => {
                     <div className="absolute inset-0 bg-gradient-to-br from-[#0093d0] to-transparent mix-blend-multiply"></div>
                 </div>
                 <div className="relative max-w-[1200px] mx-auto px-4 text-center text-white">
-                    <span className="text-[#0093d0] font-bold tracking-widest uppercase text-sm mb-4 block">Nuestra Misión</span>
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Expertos en Salud Auditiva en Málaga</h1>
+                    <span className="text-[#0093d0] font-bold tracking-widest uppercase text-sm mb-4 block">Nuestra Filosofía</span>
+                    <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Alta Tecnología con Corazón de Barrio</h1>
                     <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                        Desde 2010, nuestro compromiso ha sido reconectar a las personas con el sonido de la vida a través de la excelencia clínica y la calidez humana.
+                        En Escucha+ creemos que oír bien no debería ser un lujo de unos pocos, sino un derecho de toda nuestra gente en Málaga.
                     </p>
                 </div>
             </div>
@@ -28,28 +28,26 @@ const About = () => {
             <div className="container mx-auto px-4 py-24">
                 <div className="grid md:grid-cols-2 gap-16 items-center">
                     <div className="space-y-6">
-                        <h2 className="text-3xl font-bold text-gray-900">Más de una década cuidando tu audición</h2>
+                        <h2 className="text-3xl font-bold text-gray-900">Por qué nacemos en 2025</h2>
                         <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                             <p>
-                                El Centro Auditivo Escucha+ nació con una visión clara: la audición no es solo una función biológica, es la base de la conexión humana.
+                                Abrimos nuestras puertas en 2025 con una misión rebelde: democratizar la salud auditiva. Hartos de ver cómo las grandes franquicias inflan los precios con comisiones innecesarias, decidimos crear un espacio diferente.
                             </p>
                             <p>
-                                Ubicados en el corazón de Málaga, hemos evolucionado integrando la tecnología más avanzada del mercado, pero manteniendo siempre el trato cercano y personalizado que nos define.
+                                Ofrecemos la **misma tecnología de punta** que las multinacionales, pero con el trato, la cercanía y los precios honestos de un gabinete independiente de Málaga. Porque para nosotros, no eres un número en una hoja de beneficios, eres nuestro vecino.
                             </p>
                             <p className="font-medium text-[#0093d0]">
-                                "No solo vendemos audífonos, diseñamos experiencias auditivas que transforman vidas."
+                                "Calidad de gama alta, trato de barrio y precios reales. Sin trucos, solo salud."
                             </p>
                         </div>
                     </div>
                     <div className="relative">
                         <div className="aspect-video bg-gray-100 rounded-3xl overflow-hidden shadow-2xl">
-                             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-200">
-                                <ShieldCheck className="w-32 h-32 text-[#0093d0] opacity-20" />
-                             </div>
+                             <img src={aboutTeam} alt="Equipo Escucha+" className="w-full h-full object-cover" />
                         </div>
-                        <div className="absolute -bottom-6 -right-6 bg-white p-8 rounded-2xl shadow-xl hidden md:block">
-                            <div className="text-4xl font-bold text-[#0093d0]">15+</div>
-                            <div className="text-gray-500 font-medium">Años de Exp.</div>
+                        <div className="absolute -bottom-6 -right-6 bg-white p-8 rounded-2xl shadow-xl hidden md:block border-2 border-[#0093d0]">
+                            <div className="text-4xl font-bold text-[#0093d0]">2025</div>
+                            <div className="text-gray-500 font-medium italic">Orgullosamente Independientes</div>
                         </div>
                     </div>
                 </div>
