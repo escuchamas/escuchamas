@@ -35,13 +35,13 @@ const About = () => {
                         <h2 className="text-3xl font-bold text-gray-900 italic">Por qué nacemos en 2025</h2>
                         <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                             <p>
-                                Abrimos nuestras puertas en 2025 con una misión rebelde: democratizar la salud auditiva. Hartos de ver cómo las grandes franquicias inflan los precios con comisiones innecesarias, decidimos crear un espacio diferente.
+                                Abrimos nuestras puertas en 2025 para llevar la mejor tecnología auditiva directamente al corazón de Málaga. Nuestro objetivo es que cada vecino tenga acceso a una audición perfecta con el trato, la cercanía y los precios honestos de un gabinete independiente.
                             </p>
                             <p>
-                                Ofrecemos la **misma tecnología de punta** que las multinacionales, pero con el trato, la cercanía y los precios honestos de un gabinete independiente de Málaga. Porque para nosotros, no eres un número en una hoja de beneficios, eres nuestro vecino.
+                                Ofrecemos **tecnología de última generación** en un entorno familiar donde no eres un número más, eres nuestro vecino. Creemos que la salud auditiva no debería ser una barrera, por eso nos esforzamos en ofrecer soluciones reales a precios accesibles para todos.
                             </p>
                             <p className="font-medium text-[#0093d0]">
-                                "Calidad de gama alta, trato de barrio y precios reales. Sin comisiones, solo salud."
+                                "Calidad auditiva al servicio del barrio de Málaga. Tecnología avanzada, trato humano y cercanía real."
                             </p>
                         </div>
                     </div>
