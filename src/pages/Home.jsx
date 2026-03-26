@@ -20,7 +20,7 @@ const Home = () => {
         "telephone": CONTACT_INFO.phone,
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": CONTACT_INFO.address,
+            "streetAddress": "C. Martínez Maldonado, 52, Bailén-Miraflores",
             "addressLocality": "Málaga",
             "postalCode": "29007",
             "addressCountry": "ES"
@@ -33,14 +33,20 @@ const Home = () => {
         "openingHoursSpecification": [
             {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "dayOfWeek": ["Monday", "Wednesday"],
                 "opens": "09:30",
-                "closes": "20:00"
+                "closes": "14:00"
             },
             {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": "Saturday",
-                "opens": "10:00",
+                "dayOfWeek": ["Monday", "Wednesday"],
+                "opens": "17:00",
+                "closes": "19:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Tuesday", "Thursday", "Friday"],
+                "opens": "09:30",
                 "closes": "14:00"
             }
         ]
