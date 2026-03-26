@@ -39,7 +39,7 @@ const Products = () => {
             id: 4,
             name: "Máxima Potencia",
             tag: "Rendimiento Superior",
-            description: "Diseñados para pérdidas severas o profundas, pero sorprendentemente compactos. Robustos, fiables y con la mayor ganancia del mercado sin distorsión ni volumen.",
+            description: "Diseñados para pérdidas severas o profundas, pero sorprendentemente compactos. Máxima potencia con un ajuste tan cómodo y ligero que olvidarás que los llevas puestos.",
             features: ["Cancelación de ruido extrema", "Diseño compacto y ligero", "Micrófonos direccionales"],
             image: imgPotente
         }

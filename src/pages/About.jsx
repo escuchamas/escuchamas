@@ -3,6 +3,7 @@ import { Users, Award, Heart, ShieldCheck, Clock, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
 import { CONTACT_INFO } from '../constants';
 import aboutTeam from '../assets/about-team.jpg';
+import juanjoRetrato from '../assets/juanjo-retrato.png';
 
 const About = () => {
     return (
@@ -88,10 +89,16 @@ const About = () => {
                     <h2 className="text-3xl font-bold text-gray-900 mb-4">El Equipo de Escucha+</h2>
                     <p className="text-gray-500">Profesionales certificados dedicados a tu bienestar.</p>
                 </div>
-                <div className="grid md:grid-cols-3 gap-12">
-                    <TeamMember name="Ana Torregrosa" role="Directora Técnica - Audióloga (15 años de exp.)" />
-                    <TeamMember name="Carlos Ruiz" role="Especialista en Audífonos" />
-                    <TeamMember name="María López" role="Atención al Paciente" />
+                <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                    <TeamMember 
+                        name="Ana Torregrosa" 
+                        role="Directora Técnica - Audióloga (15 años de exp.)" 
+                    />
+                    <TeamMember 
+                        name="Juanjo Contreras" 
+                        role="Especialista en Soluciones Auditivas" 
+                        image={juanjoRetrato} 
+                    />
                 </div>
             </div>
         </div>
@@ -108,10 +115,14 @@ const ValueCard = ({ icon, title, description }) => (
     </div>
 );
 
-const TeamMember = ({ name, role }) => (
+const TeamMember = ({ name, role, image }) => (
     <div className="text-center group">
         <div className="w-48 h-48 bg-gray-100 rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden border-4 border-white shadow-lg transition-transform group-hover:scale-105">
-            <Users className="w-20 h-20 text-gray-300" />
+            {image ? (
+                <img src={image} alt={name} className="w-full h-full object-cover" />
+            ) : (
+                <Users className="w-20 h-20 text-gray-300" />
+            )}
         </div>
         <h3 className="text-xl font-bold text-gray-900">{name}</h3>
         <p className="text-[#0093d0] font-medium">{role}</p>

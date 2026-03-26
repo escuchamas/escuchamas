@@ -56,7 +56,7 @@ const Home = () => {
         <div className="bg-gray-50">
             <SEO 
                 title="Centro Auditivo Málaga | Revisión Gratis" 
-                description="Especialistas en audífonos en Málaga. Financiación 0%, prueba gratuita de 30 días y atención personalizada. ¡Recupera tu audición hoy!"
+                description="Especialistas en audífonos en Málaga. Financiación 0%, prueba gratuita de 15 días y atención personalizada. ¡Recupera tu audición hoy!"
             />
             <script type="application/ld+json">
                 {JSON.stringify(structuredData)}
@@ -109,7 +109,7 @@ const Home = () => {
                         <span className="text-[#0093d0] text-xl">✓</span> 0% Intereses
                     </div>
                     <div className="flex items-center gap-2">
-                        <span className="text-[#0093d0] text-xl">✓</span> Prueba Gratuita 30 días
+                        <span className="text-[#0093d0] text-xl">✓</span> Prueba Gratuita 15 días
                     </div>
                     <div className="flex items-center gap-2">
                         <span className="text-[#0093d0] text-xl">✓</span> Garantía de Satisfacción
@@ -146,7 +146,7 @@ const Home = () => {
                         />
                         <ProductCard
                             name="Audífonos Potentes"
-                            description="Máxima claridad para pérdidas severas en formato compacto"
+                            description="Máxima potencia y comodidad en formato compacto"
                             image={imgPotente}
                         />
                     </div>
