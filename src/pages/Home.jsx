@@ -140,7 +140,7 @@ const Home = () => {
                         />
                         <ProductCard
                             name="Audífonos Potentes"
-                            description="Máxima claridad para pérdidas severas"
+                            description="Máxima claridad para pérdidas severas en formato compacto"
                             image={imgPotente}
                         />
                     </div>
